@@ -13,7 +13,7 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <ThirdwebProvider
-      clientId={"cecc8954f967266ce8fa60bbd7bf1745"}
+      clientId={""} //YOUR CLIENT ID
       activeChain={activeChain}
     >
       <App />
